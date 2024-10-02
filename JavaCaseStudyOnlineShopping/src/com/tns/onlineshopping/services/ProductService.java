@@ -1,3 +1,4 @@
+//Program to define Product Service - add, remove, retrieve products
 package com.tns.onlineshopping.services;
 
 import java.util.ArrayList;
@@ -22,6 +23,8 @@ public class ProductService {
 	}
 	
 	 public Product getProductById(int productId) {
+		
+		 
 	        return productList.stream()
 	                .filter(product -> product.getProductId() == productId)
 	                .findFirst()

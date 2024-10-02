@@ -1,3 +1,4 @@
+//Program to define ProductQuantityPair class
 package com.tns.onlineshopping.entities;
 
 public class ProductQuantityPair {

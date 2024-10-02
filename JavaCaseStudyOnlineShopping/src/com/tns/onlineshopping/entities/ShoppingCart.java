@@ -1,9 +1,9 @@
+//Program to define ShoppingCart class
 package com.tns.onlineshopping.entities;
 
 import java.util.HashMap;
 import java.util.Map;
 
-//ShoppingCart class
 public class ShoppingCart {
 	private Map<Product, Integer> items;
 
@@ -23,14 +23,9 @@ public class ShoppingCart {
 	public void removeItem(Product product) {
 		items.remove(product);
 	}
-	
+
 	@Override
 	public String toString() {
 		return "ShoppingCart [items=" + items + "]";
-	}
-
-	public void clear() {
-		items.clear();
-		
 	}
 }

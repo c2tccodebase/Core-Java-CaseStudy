@@ -1,6 +1,6 @@
+//Program to define Product class
 package com.tns.onlineshopping.entities;
 
-//Product class
 public class Product {
 	private int productId;
     private String name;
@@ -27,5 +27,6 @@ public class Product {
     @Override
     public String toString() {
         return "Product [productId=" + productId + ", name=" + name + ", price=" + price + ", stockQuantity=" + stockQuantity + "]";
-    }}
+    }
+}
 

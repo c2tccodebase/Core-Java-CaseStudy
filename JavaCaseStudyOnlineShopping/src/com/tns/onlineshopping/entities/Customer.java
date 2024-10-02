@@ -1,3 +1,4 @@
+//Program to define Customer entity
 package com.tns.onlineshopping.entities;
 
 import java.util.ArrayList;
